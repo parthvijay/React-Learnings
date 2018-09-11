@@ -1,0 +1,27 @@
+.table{
+    width: 60%;
+    float: right;
+    margin-right: 2%;
+    padding: 16px;
+}
+
+.table table {
+    border: 1px solid black;
+    padding: 16px;
+}
+
+.table table th {
+    padding: 16px;
+    width: 100px;
+    border: 1px solid black;
+}
+
+.table table tr td {
+    padding: 16px;
+    border: 1px solid black;
+}
+
+.table table tr:nth-child(even) {
+    background-color: lightgray;
+}
+
