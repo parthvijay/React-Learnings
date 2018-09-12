@@ -41,26 +41,26 @@ class CategoryDetail extends Component {
                 return <tr>
                     <td>{item.name}</td>
                     <td>{item.description}</td>
-                  </tr>;
+                </tr>;
             });
             return <div className="table">
                 <h3>
-                  Items in Category: ({this.props.match.params.id})
+                Items in Category: ({this.props.match.params.id})
                 </h3>
                 <table>
-                  <thead>
+                <thead>
                     <tr>
-                      <th>
+                    <th>
                         <b>Name</b>
-                      </th>
-                      <th>
+                    </th>
+                    <th>
                         <b>Description</b>
-                      </th>
+                    </th>
                     </tr>
-                  </thead>
-                  <thead>{tableData}</thead>
+                </thead>
+                <thead>{tableData}</thead>
                 </table>
-              </div>; 
+            </div>; 
         } else {
             return <div>
                 <p>No Data Available</p>
