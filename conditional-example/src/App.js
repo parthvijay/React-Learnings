@@ -29,10 +29,10 @@ class App extends Component {
     })
 
     return <div className="App">
-        <input type="text" onChange={this.inputLength} value={this.state.inputStr}/>
-        <Validation textLength={this.state.inputStr.length}></Validation>
-        {charList}
-      </div>;
+              <input type="text" onChange={this.inputLength} value={this.state.inputStr}/>
+              <Validation textLength={this.state.inputStr.length}></Validation>
+              {charList}
+            </div>;
   }
 }
 
